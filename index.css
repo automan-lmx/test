@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+
+html,body{
+	width:100%;
+	height:100%;
+	background:#333;
+}
+.wrapper{
+	position:relative;
+}
+.wrapper,
+.wrapper ul{
+	width:100%;
+	height:100%;
+}
+
+.wrapper ul li{
+	display: inline-block;
+	width:25%;
+	/*height:100%;*/
+}
+.wrapper ul li img{
+	width:100%;
+	/*overflow: hidden;*/
+}
+
+.show{
+	position:absolute;
+	background-color: #999;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+	/*margin:0 auto;*/
+}
+.show img{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
